@@ -16,3 +16,8 @@ function Arreglos(){
         console.log(f);
     }
 }
+document.getElementById("btnSaludar").addEventListener(
+    "click", function() {
+        console.log("Hola!");
+    }
+)
